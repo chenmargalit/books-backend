@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/bin/yarn add bluebird
+  /usr/local/bin/node /usr/local/bin/yarn add mongoose-unique-validator
 
 PATH: 
   /Library/Frameworks/Python.framework/Versions/3.7/bin:/anaconda3/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/mongodb/bin
@@ -41,6 +41,7 @@ npm manifest:
     },
     "dependencies": {
       "bcrypt": "^3.0.0",
+      "bluebird": "^3.5.1",
       "body-parser": "^1.18.3",
       "dotenv": "^6.0.0",
       "express": "^4.16.3",
@@ -842,7 +843,7 @@ Lockfile:
     version "1.11.0"
     resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-1.11.0.tgz#46aa1751fb6a2f93ee5e689bb1087d4b14c6c205"
   
-  bluebird@3.5.1:
+  bluebird@3.5.1, bluebird@^3.5.1:
     version "3.5.1"
     resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.1.tgz#d9551f9de98f1fcda1e683d17ee91a0602ee2eb9"
   
